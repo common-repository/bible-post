@@ -1,0 +1,48 @@
+/*BiblePost Style*/
+.hyno_learn_more {
+	background: #f9f9f9 url(img/hyno-learn-more-bg.png) repeat-x left top;
+	border: 1px solid #e7e7e7;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding: 10px 13px 0px 18px;
+	margin: 10px 0px;
+}
+.hyno_learn_more h3.heading-more {
+	background: url(img/hyno-learn-more-closed.png) no-repeat right top;
+	cursor: pointer;
+	padding: 3px 45px 20px 35px;
+	font: bold 14px Century Gothic, Arial, sans-serif;
+	color: #535353;
+	letter-spacing: 0px;
+}
+.hyno_learn_more h3.open {
+	background: url(img/hyno-learn-more-opened.png) no-repeat right top;
+}
+.hyno_learn_more h3.heading-more span {
+	display: block;
+}
+.hyno_learn_more h3.heading-more .bible_version{
+	/*display: block;*/
+	display: inline-table;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 10px;
+	font-style: italic;
+	font-weight: lighter;
+	color: #999;
+        text-transform: capitalize;
+}
+.hyno_learn_more .learn-more-content {
+	padding-bottom: 17px; /*display: none;*/
+	visibility: hidden;
+		font-family: "Comic Sans MS", cursive;
+	font-size: 12px;
+	color: #999;
+
+	text-align: justify;
+}
+.img_bible {
+	background-image: url(img/hyno-bible_2.png);
+	background-repeat: no-repeat;
+}
+/*End BiblePost Style*/
